@@ -385,7 +385,11 @@ h3.subtitle:before {
 .about-text {
     margin-top: -4%;
 }
-
+@media screen and (max-width: 480px) {
+    .about-text {
+        margin-top: 0%;
+    }
+}
 
 .about-text h2 {
     margin-bottom: 0px;
@@ -423,6 +427,21 @@ h3.subtitle:before {
   text-indent: -1em;
  }
 
+@media screen and (max-width: 480px) {
+    .list1 {
+        margin-left: 2%;
+        margin-right: 5%;
+    }
+    .list2 {
+        margin-left: 2%;
+        margin-right: 5%;
+    }
+    .list3 {
+        margin-left: 2%;
+        margin-right: 5%;
+    }
+}
+
 .me-image img {
     height: 50%;
     width: 90%;
@@ -459,7 +478,7 @@ h3.subtitle:before {
 
 @media screen and (max-width: 480px) {
     .reason {
-        margin-left: 6%;
+        margin-left: 8%;
         margin-right: 6%;
     }
 }
@@ -478,6 +497,11 @@ h3.subtitle:before {
 
 .comparison {
     margin-left: 20px;
+}
+@media screen and (max-width: 480px) {
+    .comparison {
+        margin: auto
+    }
 }
 
 /* Progress bars */
